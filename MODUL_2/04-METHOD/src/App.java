@@ -40,7 +40,7 @@ public class App {
  public static void main(String[] args) throws Exception {
 
     // MEMBUAT OBJEK
-    Mahasiswa mhs_1 = new Mahasiswa("LY", "23241048");
+    Mahasiswa mhs_1 = new Mahasiswa("aull", "23241067");
 
     // memanggil method dengan parameter dan return 
     mhs_1.cetak();
