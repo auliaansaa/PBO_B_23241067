@@ -15,11 +15,11 @@ public class App {
         Mahasiswa mhs_1 = new Mahasiswa();
 
         // pengisian data objek 
-        mhs_1.Nama = "LY";
-        mhs_1.Nim = "23241048";
+        mhs_1.Nama = "aull";
+        mhs_1.Nim = "23241067";
         mhs_1.Prodi ="PTI";
         mhs_1.IPK  = 3.00; 
-        mhs_1.umur = 18;
+        mhs_1.umur = 19;
 
         // cetak data ujang
         System.out.println("Nama Mahasiswa : "+ mhs_1.Nama);
