@@ -1,9 +1,10 @@
 package com.tutorial;
 
-// keyword untuk import package eksternal
 import com.terminal.Console;
 
-class Main {
+import static com.terminal.Console.log;
+
+public class Main {
     public static void main(String[] args) {
         // membuat objek
         Player player1 = new Player("Ishigami Senku");
@@ -14,7 +15,5 @@ class Main {
         player3.cetak();
 
         Console.log("Hallo");
-
-
     }
 }
