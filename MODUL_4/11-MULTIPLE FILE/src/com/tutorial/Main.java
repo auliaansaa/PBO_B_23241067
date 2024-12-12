@@ -1,10 +1,9 @@
 package com.tutorial;
 
+//keyword untuk import package eksternal
 import com.terminal.Console;
 
-import static com.terminal.Console.log;
-
-public class Main {
+class Main {
     public static void main(String[] args) {
         // membuat objek
         Player player1 = new Player("Ishigami Senku");
