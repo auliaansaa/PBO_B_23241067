@@ -1,28 +1,17 @@
 package com.tutorial;
 
-//import pac
-import com.terminal.Console;
-//visibiliti default hanya bisa diakses oleh
-//package yang sama
+// Package yang sama
 class Player {
-    //variable objek
+    // varibel 
     private String nama;
 
-    //konstruktor
+    // constructor
     Player(String nama){
         this.nama = nama;
     }
 
-    //method cetak
+    // mathod cetak 
     void cetak(){
         System.out.println("Nama : " + this.nama);
-        Console.log("Menggunakan Console");
-        Console.log("");
     }
-
-    //method getter
-    String getName(){
-        return this.nama;
-    }
-
 }
