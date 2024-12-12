@@ -1,18 +1,17 @@
 package com.tutorial;
 
-import com.terminal.Console;
 
-import static com.terminal.Console.log;
-class Main{
+class Main {
     public static void main(String[] args) {
-        //membuat objek
-        Player player1 = new Player("Ishigami Senku");
+        // membuat objek
+        Player player1 = new Player("selki");
+        Player player2 = new Player("sel");
+        Player player3 = new Player("ki");
         player1.cetak();
+        player2.cetak();
+        player3.cetak();
 
-        Console.log("Menampilan data dari console");
-        Console.log("Player Nama : " + player1.getName());
 
-        log("Menggunakan Static method log");
-        log(player1.getName());
+
     }
 }
